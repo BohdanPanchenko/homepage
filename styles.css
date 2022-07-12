@@ -213,6 +213,10 @@
         }
         
         @media (max-width: 424px) {
+             .resume {
+                margin: 0 auto;
+                padding: 40px 15px;
+               }
             .resume * {
                 font-size: 15px;
             }
@@ -225,4 +229,8 @@
             .container {
                 padding: 0;
             }
+               .header__name {
+    
+              padding-bottom: 5px;
+              }
         }
