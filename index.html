@@ -1,10 +1,94 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-  </head>
-  <body>
-    ― Hello World! &#x1F609;
-  </body>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Résumé</title>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="resume">
+        <div class="resume__header header">
+          <div class="header__icon"><img src="assets/person.png" alt="person-icon" width="190" height="190">
+          </div>
+          <h1 class="header__name">Bohdan Panchenko</h1>
+        </div>
+        <div class="resume__contact-info contact-info">
+          <div class="contact-info__item">27/07/1996</div>
+          <div class="contact-info__item">
+            <div class="contact-info__item-icon-wrapper">
+              <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                  d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                </path>
+              </svg>
+            </div>
+            <span>Kremenchuk, Ukraine</span>
+          </div>
+
+          <a href="tel:+380689222007" class="contact-info__item">Phone number: 068 922 20 07</a>
+          <a href="mailto:logitechchillstream@gmail.com" class="contact-info__item">e-mail:
+            logitechchillstream@gmail.com</a>
+
+        </div>
+        <div class="resume__education education">
+          <div class="education__logo"><img src="assets/ed-icon.png" alt="education-logo" width="100" height="100">
+          </div>
+          <h2 class="education__info"><span class="head">Education:</span> Kremenchuk Mykhailo Ostrohradskiy
+            National
+            University,
+            <br> Faculty of electronics and computer engineering,<br> Computer engineering.
+            <br>
+            <span class="year">2013 – 2017</span>
+          </h2>
+        </div>
+
+
+        <div class="resume__skills skills">
+          <h2 class="skills__header">Professional skills: </h2>
+          <div class="skills__logo"><img src="assets/skill.png" alt="skills-logo" width="100" height="100">
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item">Knowledge of HTML, CSS, JavaScript</li>
+            <li class="skills__item">React, Redux, Git (basics)</li>
+            <li class="skills__item">Ability to work as a part of a team</li>
+          </ul>
+        </div>
+
+        <div class="resume__projects projects">
+          <h2 class="projects__header">Projects:</h2>
+          <div class="projects__logo"><img src="assets/project.png" alt="project-logo" width="100" height="100"></div>
+          <ul class="projects__list">
+            <li class="projects__item project"><img src="./assets/html.png" alt="html-icon"><a
+                href="https://bohdanpanchenko.github.io/cosmos89/index.html">Online courses web-site</a>
+            </li>
+            <li class="projects__item project"><img src="./assets/java-script.png" alt="js-icon"><a
+                href="https://bohdanpanchenko.github.io/PROJECT-2/Millionaire/index.html">Millionaire
+                game</a>
+            </li>
+            <li class="projects__item project"><img src="./assets/react.png" alt="react-icon"><a
+                href="https://bohdanpanchenko.github.io/todo-react-redux/">ToDoList App</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="resume__langs langs">
+          <h2 class="langs__header">Foreign languages:</h2>
+          <div class="langs__logo">
+            <img src="assets/languages.png" alt="langs-logo" width="100" height="100">
+          </div>
+          <ul class=" lsngs__list ">
+            <li class=" langs__item ">English – intermediate</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
 </html>
