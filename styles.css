@@ -98,7 +98,7 @@ a {
 .education__info .year::before {
   position: absolute;
   content: "";
-  background-image: url("./images/calendar.png");
+  background-image: url("./assets/calendar.png");
   background-size: cover;
   width: 24px;
   height: 24px;
@@ -129,7 +129,7 @@ a {
 .skills__item::before {
   position: absolute;
   content: "";
-  background-image: url("images/check.png");
+  background-image: url("./assets/check.png");
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
