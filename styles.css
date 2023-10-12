@@ -245,7 +245,13 @@ a {
   display: flex;
   justify-content: center;
 }
-
+.portfolio-link
+    {color: #000000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 6px 15px;
+    margin-top: 5px;
+    background: #e6e6e6ab;}
 /* ------------------------LANGS--------------------------- */
 
 .langs__header {
@@ -260,7 +266,13 @@ a {
   line-height: 1.5;
   list-style: disc;
 }
-
+@media (max-width: 615px){
+  .project-feature{
+    flex-direction:column;
+    gap:10px;
+  }
+  .project-features{padding:10px}
+}
 @media (max-width: 424px) {
   .resume {
     margin: 0 auto;
