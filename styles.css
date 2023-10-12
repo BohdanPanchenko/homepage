@@ -267,11 +267,11 @@ a {
   list-style: disc;
 }
 @media (max-width: 615px){
-  .project-feature{
+  .project-features{
     flex-direction:column;
     gap:10px;
   }
-  .project-features{padding:10px}
+  .project-feature{padding:10px}
 }
 @media (max-width: 424px) {
   .resume {
